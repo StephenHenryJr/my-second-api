@@ -3,6 +3,16 @@ const app = express()
 const PORT = 8000
 
 const rappers = {
+    'jay-z': {
+        'age': 52,
+        'birthName': 'Sean Carter',
+        'birthLocation': 'NY City, New York',
+    },
+    'nas': {
+        'age': 48,
+        'birthName': 'Nasir bin Olu Dara Jones',
+        'birthLocation': 'NY City, New York',
+    },
     '21 savage': {
         'age': 29,
         'birthName': 'Sheyaa Bin Abraham-Joseph',
